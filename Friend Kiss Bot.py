@@ -92,7 +92,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await message.reply_text(reply_text)
 
 def main():
-    TOKEN = '8291231066:AAGkg9JKRTxmHaKW2Gq1m3Xqt8DFCAgrisY'  # вставьте сюда свой токен
+    TOKEN = '   '  # вставьте сюда свой токен
 
     application = ApplicationBuilder().token(TOKEN).build()
 
@@ -104,4 +104,5 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
+
     main()
